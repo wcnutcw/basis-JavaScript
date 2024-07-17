@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stye3.css">
+</head>
+<body onload="welcome()">
+    <div class="box">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, nemo.</p>
+    </div>
+    <label for="">ชื่อ</label>
+    <input type="text" placeholder="ป้อนชื่อของคุณ" onfocus="hightlight(this)" onblur="unhightlight(this)">
+    <textarea name="" id="" onfocus="hightlight(this)" onblur="unhightlight(this)"></textarea>
+    <select name="" id="menu" onchange="getMenu()">
+        <label for="">เลือกเครื่องมือ</label>
+        <option value="JavaScript">JavaScript</option>
+        <option value="Python">Python</option>
+        <option value="Bootstrap">Bootstrap</option>
+    </select>
+    <p id="display"></p>
+    <a href="" onmouseover="hight(this)" onmouseout="unhightlight(this)">Menu 1</a>
+    <a href="" onmouseover="hight(this)" onmouseout="unhightlight(this)">Menu 2</a>
+    <script src="EP32_DOMEvent.js"></script>
+</body>
+</html>
